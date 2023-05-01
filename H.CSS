@@ -1,0 +1,49 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input {
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  width: 100px;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: rgb(21, 12, 12);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#output {
+  font-size: 2rem;
+  text-align: center;
+}
